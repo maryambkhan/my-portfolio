@@ -11,10 +11,14 @@
 </template>
 
 <script setup>
-
 </script>
+
 <style>
-body{
+body {
   cursor: pointer;
+}
+
+.text {
+    font-family:cursive;
 }
 </style>

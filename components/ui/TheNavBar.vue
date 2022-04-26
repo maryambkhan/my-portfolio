@@ -27,8 +27,3 @@ export default {
   };
 </script>
 
-<style scoped>
-.text{
-    font-family:cursive;
-}
-</style>
