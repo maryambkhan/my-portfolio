@@ -33,7 +33,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
-    '@nuxtjs/tailwindcss','@nuxt/image','@nuxtjs/fontawesome','@nuxtjs/google-fonts',
+    '@nuxtjs/tailwindcss','@nuxt/image','@nuxtjs/fontawesome','@nuxtjs/google-fonts','@nuxtjs/apollo',
   ],
   fontawesome: {
     icons:{
@@ -48,11 +48,18 @@ export default {
       Lustria:[400]
     }
   },
-
+apollo: {
+    clientConfigs: {
+      default: {
+        httpEndpoint: 'http://localhost:1337/graphql',
+      }
+    }
+  },
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+   
   ],
-
+  
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
