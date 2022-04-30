@@ -3,19 +3,18 @@
     <div class="text-center mt-4 text-pink-800 gap-4 text">
       <h1 class="sm:text-3xl md:text-4xl lg:text-4xl mb-4 mt-10">About Me</h1>
     </div>
-    <!-- <pre> {{ abouts.data }} </pre>-->
-    <div v-for="about in abouts.data" :key="about.id">
+    <div>
       <p class="sm:text-sm md:text-xl text-pink-800 max-w-prose mx-auto">
-        {{ about.attributes.detail }}
+        Hi, I am Maryam Khan. I graduated from the Web Developer at SAIT in 2022.  I think learning never stops. I try to improve my skills everyday and learn something new.
       </p>
 
       <div class="text-center mt-4 text-pink-800 gap-4 text">
         <h1 class="sm:text-3xl md:text-4xl lg:text-4xl mb-4 mt-4">
-          {{ about.attributes.title }}
+         Tools I'm Using!
         </h1>
       </div>
       <p class="sm:text-sm md:text-xl text-pink-800 text-center">
-        {{ about.attributes.info }}
+        HTML, CSS, Javascript, Nuxt2.js, Tailwindcss, Git, Figma, Strapi, Storyblok, Node.js
       </p>
     </div>
     <!--Icons-->
@@ -42,39 +41,3 @@
 </template>
 
 
-<script>
-import gql from "graphql-tag";
-
-export default {
-  data() {
-    return {
-      abouts: [],
-    };
-  },
-  apollo: {
-    abouts: {
-      query: gql`
-        query {
-          abouts {
-            data {
-              id
-              attributes {
-                detail
-                title
-                info
-                image {
-                  data {
-                    attributes {
-                      url
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
-      `,
-    },
-  },
-};
-</script>
