@@ -5,7 +5,13 @@
     </div>
     <div>
       <p class="sm:text-sm md:text-xl text-pink-800 max-w-prose mx-auto">
-        Hi, I am Maryam Khan. I graduated from the Web Developer at SAIT in 2022.  I think learning never stops. I try to improve my skills everyday and learn something new.
+        Hi, I am <strong> Maryam Khan👋. </strong>
+      <ul>
+       <li> 📚 I recently finished my Web Developer program in SAIT.<li>
+      <li>🌱 I learned these frameworks Vue, Nuxt in school but I wanted to dive deeper, I'm also taking a course in ReactJS.</li>
+      <li>💻 My favourite CSS Framework is TailwindCSS, I'm looking forward to learn more CSS frameworks!</li>
+      <li>📚 I think learning never stops. I try to improve my skills everyday and learn something new.</li>
+     </ul>
       </p>
 
       <div class="text-center mt-4 text-pink-800 gap-4 text">
@@ -14,7 +20,7 @@
         </h1>
       </div>
       <p class="sm:text-sm md:text-xl text-pink-800 text-center">
-        HTML, CSS, Javascript, Nuxt2.js, Tailwindcss, Git, Figma, Strapi, Storyblok, Node.js
+        HTML, CSS, Javascript, Nuxt.js, vue.js, Tailwindcss, Git, Figma, Strapi, Storyblok, Node.js
       </p>
     </div>
     <!--Icons-->

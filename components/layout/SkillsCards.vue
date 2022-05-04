@@ -27,8 +27,15 @@
               />
             </svg>
           </div>
-          <h1 class="text-xl text-pink-800 hover:underline">Languages</h1>
-          <p>HTML, CSS, JavaScript, Tailwindcss</p>
+          <h1 class="text-xl text-pink-800 hover:underline font-semibold">
+            Languages
+          </h1>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Tailwindcss</li>
+          </ul>
         </div>
         <div
           class="
@@ -52,8 +59,13 @@
               />
             </svg>
           </div>
-          <h1 class="text-xl text-pink-800 hover:underline">Frameworks</h1>
-          <p>Vue.js, Nuxt.js</p>
+          <h1 class="text-xl text-pink-800 hover:underline font-semibold">
+            Frameworks
+          </h1>
+          <ul>
+            <li>Vue.js</li>
+            <li>Nuxt.js</li>
+          </ul>
         </div>
         <div
           class="
@@ -77,8 +89,13 @@
               />
             </svg>
           </div>
-          <h1 class="text-xl text-pink-800 hover:underline">CMS</h1>
-          <p>Storyblok, Strapi</p>
+          <h1 class="text-xl text-pink-800 hover:underline font-semibold">
+            CMS
+          </h1>
+          <ul>
+            <li>Storyblok</li>
+            <li>Strapi</li>
+          </ul>
         </div>
         <div
           class="
@@ -102,8 +119,15 @@
               />
             </svg>
           </div>
-          <h1 class="text-xl text-pink-800 hover:underline">Other Tools</h1>
-          <p>Figma, Git, Node.js</p>
+          <h1 class="text-xl text-pink-800 hover:underline font-semibold">
+            Other Tools
+          </h1>
+          <ul>
+            <li>Figma</li>
+            <li>Git</li>
+            <li>Node.js</li>
+            <li>Netlify</li>
+          </ul>
         </div>
       </div>
     </section>
