@@ -1,7 +1,7 @@
 <template>
   <div>
     <section>
-      <h1 class="text-center text-pink-800 text-2xl font-semibold mt-8 text">
+      <h1 class="text-center text-pink-800 text-4xl font-bold mt-8 text">
         SKILLS
       </h1>
       <div class="flex flex-wrap justify-center mt-8 text-center">

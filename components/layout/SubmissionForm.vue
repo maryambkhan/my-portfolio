@@ -3,7 +3,7 @@
 	<!--form-->
      <section class="mx-auto mt-2 bg-gray-300 max-w-6xl py-12 px-12">
 			 <div class="text">
-			 <h1 class="text-center text-pink-800 text-2xl font-semibold">GET IN TOUCH !</h1></div>
+			 <h1 class="text-center text-pink-800 text-4xl mb-4 font-bold">GET IN TOUCH !</h1></div>
   <form action="https://formspree.io/f/mgedpkbn" method="POST"  class="flex justify-center">
     <fieldset>
         <!--first name-->

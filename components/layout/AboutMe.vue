@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="text-center mt-4 text-pink-800 gap-4 text">
-      <h1 class="sm:text-3xl md:text-4xl lg:text-4xl mb-4 mt-10">About Me</h1>
+      <h1 class="text-4xl font-bold mb-4 mt-10">About Me</h1>
     </div>
     <div>
       <p class="sm:text-sm md:text-xl text-pink-800 max-w-prose mx-auto">
