@@ -1,5 +1,5 @@
 # my-portfolio
-
+- [netlify](https://cheerful-malabi-1d288c.netlify.app/)
 ## Build Setup
 
 ```bash
