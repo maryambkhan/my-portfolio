@@ -7,10 +7,11 @@
     </div>
     <div class="text">
     <div :class="isOpen ? 'block' : 'hidden'" class="items-center px-2 pt-2 pb-4 sm:flex">
-    <NuxtLink to="/" class="block px-4 py-2 sm:text-2xl lg:text-2xl font-semibold text-white rounded hover:bg-pink-300">HOME</NuxtLink>
-    <NuxtLink  to="/about" class="block   px-4 py-2 sm:text-2xl lg:text-2xl font-semibold text-white rounded hover:bg-pink-300" >ABOUT</NuxtLink>
-    <NuxtLink to="/contact" class="block px-4 py-2  sm:text-2xl lg:text-2xl font-semibold text-white rounded hover:bg-pink-300">CONTACT</NuxtLink>
+    <NuxtLink to="/" class="block px-4 py-2 sm:text-2xl lg:text-2xl font-semibold text-white">About Me</NuxtLink>
+    <NuxtLink  to="/education" class="block   px-4 py-2 sm:text-2xl lg:text-2xl font-semibold text-white" >Education</NuxtLink>
+    <NuxtLink to="/project" class="block px-4 py-2  sm:text-2xl lg:text-2xl font-semibold text-white">Project</NuxtLink>
   </div>
+  
     </div>
   </div>
 </template>
@@ -25,4 +26,3 @@ export default {
     },
   };
 </script>
-
