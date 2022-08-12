@@ -5,6 +5,7 @@
       <MyEducation />
       <MyProject />
     </main>
+    <TheFooter />
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div>
     <!--Education-->
-    <div class="flex justify-center gap-10">
+    <div class="flex justify-center flex-wrap gap-10">
        <section class="ml-8 pt-20 font-semibold text-2xl   text-gray-500">
       <span class="text-white underline ">Education</span>
       <div class="pt-4">
